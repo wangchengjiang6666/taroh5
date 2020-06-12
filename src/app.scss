@@ -1,0 +1,14 @@
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/toast.scss";
+@import "~taro-ui/dist/style/components/list.scss";
+.taro_router {
+  height: 100%;
+  .taro_page {
+    height: 100%;
+    > div {
+      height: 100%;
+    }
+  }
+}
